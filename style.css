@@ -9,10 +9,10 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ff00cc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 h1, h3 {
