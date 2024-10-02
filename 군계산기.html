@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>군 적금 계산기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>군 적금 계산기</h1>
+
+        <form id="savingsForm">
+            <label for="monthlyDeposit">월 적금 납입액 (KRW):</label>
+            <input type="number" id="monthlyDeposit" required><br>
+
+            <label for="firstDepositDate">첫 납입일자:</label>
+            <input type="date" id="firstDepositDate" required><br>
+
+            <label for="dischargeDate">전역일자:</label>
+            <input type="date" id="dischargeDate" required><br>
+
+            <label for="annualInterest">연 이자율 (%):</label>
+            <input type="number" id="annualInterest" step="0.001" required><br>
+
+            <button type="button" onclick="calculate()">계산하기</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
